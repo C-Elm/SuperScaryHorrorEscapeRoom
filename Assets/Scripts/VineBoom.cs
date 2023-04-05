@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class VineBoom : MonoBehaviour
+{
+    AudioSource aud;
+
+    void Start()
+    {
+        aud = GetComponent<AudioSource>();
+    }
+
+    void Update()
+    {
+
+    }
+
+    public void play_sound()
+    {
+        aud.Play();
+    }
+}
